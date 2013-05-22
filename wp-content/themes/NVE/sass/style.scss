@@ -1,0 +1,418 @@
+/*!
+Theme Name: NVE
+Theme URI: http://nathanstaines.com
+Description: A theme for The native village of eyak based off nathan staine's starkers
+Version: 3.2
+Author: Dean Kramer
+Author URI: http://deanohyeah.com
+Tags: starkers, html5, naked, clean, basic
+*/ 
+
+$gradientStart:#222222;
+$gradientEnd  :#111111;
+
+$bgColor:white;
+$lightTextColor:white;
+$bodyBgColor:#F5F5F5;
+$headerTextColor:#ccc;
+$footerBgColor:#1b1b1b;
+$accentBorderColor:#252525;
+$labelColor:#a1a1a1;
+@import "css/reset.css";
+@import "css/bootstrap.css";
+@import "css/bootstrap-responsive.css";
+
+li{
+    list-style-type: none;
+}
+/**
+ * YUI 3.5.0 - reset.css (http://developer.yahoo.com/yui/3/cssreset/)
+ * http://cssreset.com
+ * Copyright 2012 Yahoo! Inc. All rights reserved.
+ * http://yuilibrary.com/license/
+ */
+/*
+*/
+html{
+	color:$lightTextColor;
+	background:$bgColor;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,
+img {
+	border:0;
+}
+/*
+	TODO think about hanlding inheritence differently, maybe letting IE6 fail a bit...
+*/
+address,
+caption,
+cite,
+code,
+dfn,
+strong,
+th,
+var {
+	font-style:normal;
+	font-weight:normal;
+}
+ 
+ol,
+ul {
+	list-style:none;
+}
+ 
+caption,
+th {
+	text-align:left;
+}
+
+q:before,
+q:after {
+	content:'';
+}
+abbr,
+acronym {
+	border:0;
+	font-variant:normal;
+}
+/* to preserve line-height and selector appearance */
+sup {
+	vertical-align:text-top;
+}
+sub {
+	vertical-align:text-bottom;
+}
+input,
+textarea,
+select {
+	font-family:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+}
+/*to enable resizing for IE*/
+input,
+textarea,
+select {
+	*font-size:100%;
+}
+
+a {
+    color: #333;;
+    text-decoration: none;
+    &:hover{
+        color: #333;;
+        text-decoration: none;
+    }
+}
+
+
+
+.main-nav, .page-wrapper, body>header, .footer_inner{
+    max-width: 940px;
+	clear: none;
+	margin:0 auto;   
+	background: url('images/noise.png');
+	
+}
+.page-wrapper{
+    padding: 0 0 0 10px;
+}
+
+body{
+    background: $bodyBgColor;
+}	
+p {
+    margin-bottom: 8px;
+
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* == HEADER ==
+===============*/
+
+body>header {
+	background: none;
+	width:100%;
+	color: $headerTextColor;
+	margin:10px auto;
+	h1 .ir {
+		text-decoration: none;
+		color: #ddd;
+		text-indent: -9999px;
+		display:block;
+		height: 0px;
+    }
+    h2  {
+		background:gray;
+		position:relative;
+		color:white;
+		text-align:center;
+		font-size: 11px;
+		margin: -10px -25px 0 -25px;
+    }
+}
+#header_left{
+   position: absolute;
+    z-index: 3;
+    width: 158px;
+    margin: 10px 42px;
+    border-radius: 10px;
+    padding: 0 10px;
+    opacity: .85;
+    img{width: 100%;}
+}
+
+#header_right{
+	margin: 0;
+	overflow: hidden;
+}
+	
+.border{
+    box-shadow: 4px 4px 31px rgba(0, 0, 0, 0.80);
+    -moz-box-shadow: 4px 4px 31px rgba(0, 0, 0, 0.80);
+    -webkit-box-shadow: 4px 4px 31px rgba(0, 0, 0, 0.80);
+    box-sizing: border-box;
+    background: white;
+}
+
+
+.double-divider:after, .double-divider:before, .single_divider:after {
+     display: block;
+     font-size: 0;
+     content: "";
+     margin:10px 0;
+     height: 2px;
+     background: -webkit-gradient(
+        linear, 
+        left center, 
+        right center, 
+        from(white), 
+        to(white),        
+        color-stop(.5,#999999));
+	 background: -moz-linear-gradient(left, white 0%, #999999 50%, white 100%);
+}
+
+.caption {
+	font-size:1.5rem;
+	line-height: normal;
+	margin-bottom: 30px;
+}
+.main-nav{
+    height: 44px;
+    margin-bottom: 22px;
+    position: relative;
+    z-index: 2;
+}
+.navbar-inner{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    border-bottom: 4px solid #519392 !important;
+    
+}
+.menu-main-menu-container{
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.main_footer{
+  background-color: $footerBgColor;
+  background-image: -moz-linear-gradient(top, $gradientStart, $gradientEnd);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from($gradientStart), to($gradientEnd));
+  background-image: -webkit-linear-gradient(top, $gradientStart, $gradientEnd);
+  background-image: -o-linear-gradient(top, $gradientStart, $gradientEnd);
+  background-image: linear-gradient(to bottom, $gradientStart, $gradientEnd);
+  background-repeat: repeat-x;
+  border-color: $accentBorderColor;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
+  border-top:solid 7px #519392;
+}
+.main_footer a{
+    color: white;
+}
+.main_footer ul{
+    padding: 10px;
+}
+.main_footer .first_list{
+    background: gray;
+}
+#header_right .slideshow_container{
+    margin:0 auto;
+}
+.fo_gray{
+    color: gray;
+}
+.navbar-search{
+    margin-left: 33px;
+}
+
+.mugs img{
+    max-width: 49%;
+}
+
+.menu-side-menu-container form{
+    display: none;
+}
+.side_bar_nav{
+    padding: 5px 10px;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 1.3rem;
+    overflow: hidden;
+}
+.side_bar_nav ul{
+    margin-top: 10px;
+}
+.side_bar_nav li{
+    margin-bottom: 4px;
+    
+}
+.side_bar_nav a{
+    color: $labelColor;
+}
+.side_bar_nav a:hover{
+    color: $labelColor;
+}
+.side_bar_nav .title_bar{
+    background: gray;
+    margin: -5px -10px 0 -10px;
+    padding-bottom: 10px;
+}
+.side_bar_nav li:after{
+    display: block;
+     font-size: 0;
+     content: "fdsfs fds";
+     margin:10px 0;
+     height: 2px;
+     background: -webkit-gradient(linear, left center, right center, from(white), to(white), color-stop(.5,#999999));
+	 background: -moz-linear-gradient(left, white 0%, #999999 50%, white 100%);
+}
+ .aside_background{
+    background: #333 ;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+ }
+ aside{
+    position: relative;
+    z-index: 1;
+    padding: 10px;
+    color: white;
+    .border{color:#333;}
+    a{color: white;}
+    li:hover{background: #222;}
+    h3,h4{color: $labelColor;}
+ }
+ 
+ .title_bar{
+     background: #519392;
+     color: $bgColor;
+     padding: 3px 5px;
+ }
+ .page-wrapper{
+     position: relative;
+     margin-bottom: 20px;
+ }
+ #posts article{
+     border-bottom: solid #eee 1px;
+     padding: 8px 4px;
+     &:hover{
+         background: #eee;
+         cursor: pointer;
+         position: relative;
+     }
+     img{
+          max-width:100px;
+          float:left;
+          margin:20px 10px 0px 0;
+     }
+ }
+
+
+/* bootstrap overrides */
+.container-fluid {
+    margin: 0!important;
+    padding: 0!important;
+}
+.current_page_item {
+    background: #333;
+    border-radius: 20px;
+    a{
+        color: #ffffff !important;
+        background-color: transparent;
+    }
+}
+.navbar .nav >li > a{
+    padding: 10px 10px 10px;
+}
+
+.btn.btn-navbar{
+    z-index: 1;
+    position: relative;
+}
+
+@media (max-width: 767px) {
+    body{margin: 0 20px;}
+}
+/* index styles */
+#posts {
+    h3{line-height: initial;}
+    h5{margin: 0;}
+}
+
+.label_color{
+    color: $labelColor;
+    border-bottom: solid gray 1px;
+    padding-bottom: 8px;
+}
+.left_column{}
+.social_icons{
+    text-align: center;
+    padding-top: 20px;
+    img{margin-bottom: 15px;}
+}
+
+/* page styles */
+.page .title_bar{
+    display: inline-block;
+    border-radius: 3px;
+}
+.shagrayaddy{
+    float: right;
+    width: 105px;
+}

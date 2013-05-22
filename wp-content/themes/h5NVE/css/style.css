@@ -1,0 +1,322 @@
+/*
+Theme Name: H5
+Theme URI: http://diggingintowordpress.com/
+Description: A minimalist WordPress template theme built with HTML 5.
+Version: 1.0
+Author: Jeff Starr
+Author URI: http://perishablepress.com/
+Tags: minimalist, template, html5
+
+	H5 v1.0
+	http://diggingintowordpress.com/
+
+	This theme was lovingly designed and developed by Jeff Starr, 
+	who blogs at perishablepress.com and designs at monzilla.biz.
+
+	The CSS, HTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-3.0.html
+*/
+* {margin:0; padding:0;}
+
+/* == BASICS == */
+
+header, footer, section, article, aside, nav {
+	display: block;
+	}
+
+body {
+	margin: 0 auto;
+	
+	background: url('http://localhost/wordpress/wp-content/uploads/2012/02/background.jpg');
+	}
+nav+section {
+	
+	width: 940px;
+	clear: none;
+	margin:auto;
+	padding:42px;
+	}
+	section{background:white;}
+
+
+/* == LINKS == */
+
+a:link, a:visited {
+	text-decoration: none;
+	color: white;
+	}
+a:hover, a:active {
+	text-decoration: none;
+	color: gray;
+	}
+
+/* == HEADER == */
+
+body>header {
+	background: white;
+	padding:20px 42px 0 42px;
+	width:100%;
+	color: #ccc;
+	width:940px;
+	margin:auto;
+	}
+	#header_left{
+	width:350px;
+	margin-right:20px;
+	padding:15px;
+	float:left;
+	height:200px;
+	}
+		body>header h1 {
+			margin: 0;
+			background:url('images/logo.jpg');
+			float:left
+			width:353px;
+			height:98px;
+			overflow:hidden;
+			}
+			body>header h1 a:link, body>header h1 a:visited {
+				text-decoration: none;
+				color: #ddd;
+				display:block;
+				text-indent:-1000px;
+				}
+			body>header h2  {
+				background:red;
+				width:420px;
+				margin:20px 0 0 -35px;
+				z-index:200;
+				position:relative;
+				color:white;
+				text-align:center;
+				height:56px;
+				}
+					body>header h2>span {
+					
+					}
+	#header_right{
+		width:498px;
+		height:200px;
+		padding:15px;
+		float:left;
+	}
+	
+
+
+/* == POSTS == */
+
+article[id*=post-] {
+	padding: 10px 0;
+	}
+article>header p, 
+article>footer {
+	font-style: italic;
+	border-bottom:dotted 2px black;
+	}
+article+nav {
+	font-weight: bold;
+	}
+section>h1 {
+	padding-top: 10px;
+	}
+
+/* == NAVIGATION == */
+
+nav {
+	clear: both;
+	border-bottom:10px solid #00AEEF;
+	}
+body>nav {
+	background: black;
+	padding: 0 42px;
+	height:200px;
+	}
+	body>nav ul {
+		text-align: left;
+		margin: 0 auto;
+		width:1024px;
+		background: #6B1312;
+		height:50px;
+		padding:10px;
+		position:relative;
+		z-index:0;
+		}
+		body>nav li {
+			display:block;
+			width:150px;
+			margin-right:5px;
+			float:left;
+			font-size:16px;
+			font-weight:bold;
+			color:white;
+			
+			}
+			
+	/* == Headline Posts == */	
+	
+section#posts{
+	width:340px;
+	margin-right:20px;
+	float:left;
+	}
+	.news>:first-child{
+		font-size:45px;
+	
+		} 
+	
+	article.news > header {
+		color:#6B1312;
+		font-size:24px;
+		line-height:.9em;
+		margin-top:10px;
+		}
+	article.news > section{
+		color:#ccc;
+		line-height:1.4em;
+		font-size:12px;
+		}	
+	
+
+/* == COMMENTS == */
+
+article[id*=comment-] {
+	margin: 15px 0;
+	padding: 10px;
+	}
+	article[id*=comment-] h4 {
+		margin: 0;
+		}
+	.alt {
+		border: 1px solid #ddd;
+		background: #eee;
+		}
+form[method=post] label {
+	display: block;
+	}
+form[method=post] input {
+	margin: 2px 0 12px 0;
+	display: block;
+	}
+
+/* == SIDEBAR == */
+
+aside {
+	margin-top: -300px;
+	padding-top:150px;
+	margin-left:20px;
+	height:100%;
+	width: 220px;
+	clear: none;
+	float:right;
+	background-image:url('images/ribbon.png');
+	background-repeat:repeat-y;
+	background-position: top;
+	}
+	aside li {
+		list-style: none;
+		}
+		aside li ul li {
+			list-style: disc outside;
+			}
+
+/* == FOOTER == */
+
+body>footer {
+	padding-top: 100px;
+	text-align: center;
+	overflow: hidden;
+	width: 100%;
+	clear: both;
+	}
+
+/* == SEARCH == */
+
+label[for=s] {
+	display: none;
+	}
+
+/* == ELEMENTS == */
+
+/* a place for misc. styles */
+
+/* clearfix */
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/* clearfix End */
+
+.border{
+border:red solid thick;
+border-radius: 10px; 
+-moz-border-radius: 10px; 
+-webkit-border-radius: 10px; 
+border: 3px solid #EB2227;
+box-shadow: 4px 4px 31px rgba(0, 0, 0, 0.80);
+    -moz-box-shadow: 4px 4px 31px rgba(0, 0, 0, 0.80);
+    -webkit-box-shadow: 4px 4px 31px rgba(0, 0, 0, 0.80);
+}
+
+	#banner-left{
+border-bottom: 20px solid #F38366;
+border-right: 20px solid #8F5746;
+height:36px;
+background:#F38366;
+width:200px;
+position:relative;
+top:156px;
+left:-217px;
+z-index:0;
+}
+
+	#banner-right{
+border-bottom: 20px solid #F38366;
+border-left: 20px solid #8F5746;
+height:36px;
+background:#F38366;
+width:200px;
+position:relative;
+top:100px;
+left:383px;
+z-index:0;
+}
+img {position:relative; z-index:10;}
+	
+.divider {
+height:1px;
+margin:10px 0;
+background-color: black;
+background: -webkit-gradient(linear, left center, right center, from(white), to(white), color-stop(.5,#999999));
+background: -moz-linear-gradient(left, white 0%, #999999 50%, white 100%);
+}
+
+.caption {
+	width:700px;
+	font-size:30px;
+	float:left;
+}
+.fo_red{color:red;}
+ .photo{ width:334px; height:200px; float:left;}
+ .side_box{
+ 	min-height:200px; 
+ 	background:white; 
+ 	position:relative; 
+ 	z-index:5; 
+ 	margin-bottom:100px;
+ 	}
+    #info_slider {
+    	
+    	width:574px;
+    	float:left;
+    	min-height:200px;
+    }
+ 
+/* == ALL YOUR CODE ARE BELONG TO POETRY == */
