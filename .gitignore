@@ -1,4 +1,5 @@
 # Ignore everything in the root except the "wp-content" directory.
 /*
+!readme.md
 !.gitignore
 !wp-content/themes
