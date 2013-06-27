@@ -163,10 +163,10 @@ function starkers_widgets_init() {
 		'name' => __( 'Primary Widget Area', 'starkers' ),
 		'id' => 'primary-widget-area',
 		'description' => __( 'The primary widget area', 'starkers' ),
-		'before_widget' => '',
-		'after_widget' => '',
-		'before_title' => '<h3>',
-		'after_title' => '</h3>',
+		'before_widget' => '<div class="border widget">',
+		'after_widget' => '</div>',
+		'before_title' => '<h4 class="title_bar">',
+		'after_title' => '</h4>',
 	) );
 
 	// Area 2, located below the Primary Widget Area in the sidebar. Empty by default.

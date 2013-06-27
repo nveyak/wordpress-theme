@@ -55,7 +55,7 @@
  
 <body class="container-fluid">
 <header class="row-fluid">
-
+<!-- <div class="top_banner"><h1 id="title"><a href="<?php bloginfo('url'); ?>/">Native Village of Eyak</a><img style="float:right; height:60px;" src="<?php echo get_bloginfo('template_url')?>/images/logo-proof-white.png"/></h1></div> -->
 <div id="header_left" class="border span3">
     	<h1 id="title">
     		<a class="ir" href="<?php bloginfo('url'); ?>/">Native Village of Eyak</a>

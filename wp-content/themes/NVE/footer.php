@@ -53,5 +53,14 @@
     });
 </script>
 <script src="<?php bloginfo('template_directory'); ?>/js/bootstrap.min.js"></script>
+<script>
+    var leftHeight=$('.left_column').height();
+    var rightHeight=$('.main_side_bar').height();
+    if(leftHeight>rightHeight){
+        $('.main_side_bar').addClass('longer');
+    }
+    console.log(leftHeight);
+</script>
+
 </body>
 </html>

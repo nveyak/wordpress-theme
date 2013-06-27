@@ -13,11 +13,13 @@ $gradientEnd  :#111111;
 
 $bgColor:white;
 $lightTextColor:white;
-$bodyBgColor:#F5F5F5;
+$bodyBgColor:#98948D;
 $headerTextColor:#ccc;
 $footerBgColor:#1b1b1b;
 $accentBorderColor:#252525;
 $labelColor:#a1a1a1;
+$linkColor:	#9A4D4D;
+$lightest: #EFEEED;
 @import "css/reset.css";
 @import "css/bootstrap.css";
 @import "css/bootstrap-responsive.css";
@@ -124,29 +126,36 @@ select {
 }
 
 a {
-    color: #333;;
+    color: $linkColor;
     text-decoration: none;
+    font-weight: bold;
     &:hover{
-        color: #333;;
-        text-decoration: none;
+        color:darken( $linkColor, 10% );
+        text-decoration: underline;
     }
+    
 }
 
-
+h1,h2,h3,h4,h5{
+    a{color: #333;}
+}
 
 .main-nav, .page-wrapper, body>header, .footer_inner{
     max-width: 940px;
 	clear: none;
-	margin:0 auto;   
-	background: url('images/noise.png');
+	margin:0 auto;  
+	background: 	#FFFFFF; 
+	/* background: url('images/noise.png'); */
 	
 }
 .page-wrapper{
-    padding: 0 0 0 10px;
+    padding: 0 0 0 9px;
 }
 
 body{
     background: $bodyBgColor;
+    font-size: 11px;
+    p,li{font-size: 13px;}
 }	
 p {
     margin-bottom: 8px;
@@ -184,6 +193,13 @@ body>header {
 		margin: -10px -25px 0 -25px;
     }
 }
+.top_banner{
+    background: #6e0001;
+    a{color: white !important;}
+    h1{margin-left: 10px; font-weight: normal;}
+    padding:10px 0;
+    font-family: georgia;
+}
 #header_left{
    position: absolute;
     z-index: 3;
@@ -201,11 +217,12 @@ body>header {
 }
 	
 .border{
-    box-shadow: 4px 4px 31px rgba(0, 0, 0, 0.80);
-    -moz-box-shadow: 4px 4px 31px rgba(0, 0, 0, 0.80);
-    -webkit-box-shadow: 4px 4px 31px rgba(0, 0, 0, 0.80);
+    box-shadow: 4px 4px 31px rgba(0, 0, 0, 0.30);
+    -moz-box-shadow: 4px 4px 31px rgba(0, 0, 0, 0.30);
+    -webkit-box-shadow: 4px 4px 31px rgba(0, 0, 0, 0.30);
     box-sizing: border-box;
     background: white;
+    margin-bottom: 20px;
 }
 
 
@@ -267,7 +284,7 @@ body>header {
     padding: 10px;
 }
 .main_footer .first_list{
-    background: gray;
+    background: $bodyBgColor;
 }
 #header_right .slideshow_container{
     margin:0 auto;
@@ -290,7 +307,6 @@ body>header {
     padding: 5px 10px;
     margin: 20px 0;
     text-align: center;
-    font-size: 1.3rem;
     overflow: hidden;
 }
 .side_bar_nav ul{
@@ -334,9 +350,16 @@ body>header {
     padding: 10px;
     color: white;
     .border{color:#333;}
-    a{color: white;}
-    li:hover{background: #222;}
+    li:hover{background:$lightest; cursor: pointer;}
     h3,h4{color: $labelColor;}
+    
+    &.longer{
+        position: absolute;
+        right: -3px;
+        top: 20px;
+        bottom: 0; 
+    }
+
  }
  
  .title_bar{
@@ -349,8 +372,9 @@ body>header {
      margin-bottom: 20px;
  }
  #posts article{
-     border-bottom: solid #eee 1px;
-     padding: 8px 4px;
+     border-left: solid gray 1px;
+     
+     padding: 0 8px;
      &:hover{
          background: #eee;
          cursor: pointer;
@@ -399,6 +423,8 @@ body>header {
     color: $labelColor;
     border-bottom: solid gray 1px;
     padding-bottom: 8px;
+    text-transform: uppercase;
+    margin-top: 20px;
 }
 .left_column{}
 .social_icons{
@@ -415,4 +441,35 @@ body>header {
 .shagrayaddy{
     float: right;
     width: 105px;
+}
+.news{
+    .date_stamp{font-size: 10px; margin: 0; color:$bodyBgColor }
+}
+.no_border{
+    border: none !important;
+}
+.border_bottom{
+    border: 1px solid $accentBorderColor;
+}
+.textwidget{
+
+    padding: 0 8px 8px 8px;
+}
+
+.bulleted_list{
+    padding-left: 30px;
+    list-style: disc;
+    li{list-style-type: disc;}
+}
+
+.full_width_background{
+    background: $lightest;
+    width: 105%;
+    margin-left: -9px;
+    padding: 10px 0;
+}
+
+/* calendar overides */
+.ai1ec-calendar-toolbar,.timely .btn-toolbar .btn-group,.timely .btn-group{
+    display: none !important;
 }

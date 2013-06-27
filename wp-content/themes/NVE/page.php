@@ -10,7 +10,7 @@
 get_header(); ?>
 
 <div class="page-wrapper row-fluid">
-    <section class="group span8">
+    <section class="group span8 left_column">
 
 	   <?php get_template_part( 'loop', 'page' ); ?>
 	</section>
