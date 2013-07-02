@@ -20,6 +20,9 @@ $accentBorderColor:#252525;
 $labelColor:#a1a1a1;
 $linkColor:	#9A4D4D;
 $lightest: #EFEEED;
+$mediumColor: #e7d6ae;
+
+
 @import "css/reset.css";
 @import "css/bootstrap.css";
 @import "css/bootstrap-responsive.css";
@@ -185,7 +188,7 @@ body>header {
 		height: 0px;
     }
     h2  {
-		background:gray;
+		background:$mediumColor;
 		position:relative;
 		color:white;
 		text-align:center;
@@ -290,7 +293,7 @@ body>header {
     margin:0 auto;
 }
 .fo_gray{
-    color: gray;
+    color: $mediumColor;
 }
 .navbar-search{
     margin-left: 33px;
@@ -323,7 +326,7 @@ body>header {
     color: $labelColor;
 }
 .side_bar_nav .title_bar{
-    background: gray;
+    background: $mediumColor;
     margin: -5px -10px 0 -10px;
     padding-bottom: 10px;
 }
@@ -372,7 +375,7 @@ body>header {
      margin-bottom: 20px;
  }
  #posts article{
-     border-left: solid gray 1px;
+     border-left: solid $mediumColor 1px;
      
      padding: 0 8px;
      &:hover{
@@ -421,7 +424,7 @@ body>header {
 
 .label_color{
     color: $labelColor;
-    border-bottom: solid gray 1px;
+    border-bottom: solid $mediumColor 1px;
     padding-bottom: 8px;
     text-transform: uppercase;
     margin-top: 20px;
@@ -438,7 +441,7 @@ body>header {
     display: inline-block;
     border-radius: 3px;
 }
-.shagrayaddy{
+.shagray{
     float: right;
     width: 105px;
 }
@@ -453,7 +456,8 @@ body>header {
 }
 .textwidget{
 
-    padding: 0 15px 8px 15px;
+    padding: 5px 15px 8px 15px;
+    background: $mediumColor;
 }
 
 .bulleted_list{
