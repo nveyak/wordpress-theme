@@ -16,7 +16,7 @@ get_header(); ?>
        <a href="#"> <img src='<?php echo get_bloginfo('template_url')?>/images/twitter.png' width='29'/></a>
     </div>
     <div class="double-divider span11">
-    			“The great Native Village of Eyak Traditional Council is a tribal government that promotes <span class="fo_red">self-determination</span> to Native Village of Eyak tribal members."
+    			“The Native Village of Eyak Traditional Council is a tribal government that promotes self-determination to Native Village of Eyak tribal members."
     </div>
 </div>
 <div class="page-wrapper row-fluid">
@@ -27,30 +27,53 @@ get_header(); ?>
                 <h4 class="label_color">Native Village of Eyak Community</h4>
                 <h5>NVE's services and programs include:</h5>
                 <ul class="bulleted_list">
-                    <li>Lorem Ipsum is simply dummy text of the printing and typesetting </li>
-                    <li>Lorem Ipsum is simply dummy text of the printing and typesetting </li>
-                    <li>Lorem Ipsum is simply dummy text of the printing and typesetting </li>
-                    <li>Lorem Ipsum is simply dummy text of the printing and typesetting </li>
-                    <li>EmplLorem Ipsum is simply dummy text of the printing and typesetting oyment</li>
+                    <li>Ilanka Community Health Center</li>
+                    <li>Behavioral Health is staffed </li>
+                    <li>Elder Care</li>
+                    <li>Victim Advocacy</li>
+                    <li>Housing Rehabilitation</li>
+                    <li>Higher Education and Vocational scholarships</li>
+                    <li>Fisheries Research</li>
+                    <li>Environmental Mitigation</li>
+                    <li>Access Development</li>
+                    <li>Ilanka Cultural Center and Museum </li>
+                    <li>Indian Child Welfare Act</li>
+                    <li>Cultural Training</li>
+                    <li>Youth Council</li>
+                    <li>Youth Cultural Camp</li>
+
                 </ul>
             </div>
             <div class="left_column group span4">
                 <div class="border textwidget">
-                    <h4>In the community</h4>
+                    <h4>Tribal Members</h4>
                     <ul>
-                        <li><a href="#">Link to stuff</a></li>
-                        <li><a href="#">Link to stuff</a></li>
-                        <li><a href="#">Link to stuff</a></li>
-                        <li><a href="#">Link to stuff</a></li>
+                        <li>Become an enrolled member</li>
+                        <li>Get my CIB</li>
+                        <li>Get my Birth Certificate</li>
+                        <li>Apply for a halibut subsistence card</li>
+                        <li>Give NVE my email address</li>
+
                     </ul>
                 </div>
                  <div class="border textwidget">
-                    <h4>In the community</h4>
+                    <h4>Employment</h4>
                     <ul>
-                        <li><a href="#">Link to stuff</a></li>
-                        <li><a href="#">Link to stuff</a></li>
-                        <li><a href="#">Link to stuff</a></li>
-                        <li><a href="#">Link to stuff</a></li>
+                        <li>Current openings</li>
+                        <li>Employment applications</li>
+                        <li>How to apply for a position</li>
+
+                    </ul>
+                </div>
+                 <div class="border textwidget">
+                    <h4>Visitors</h4>
+                    <ul>
+                        <li><a href="">NVE projects</a></li>
+                        <li><a href="">Shepard Pt (dvd)</a></li>
+                        <li><a href="">Sobriety (dvd)</a></li>
+                        <li><a href="">Gallery</a></li>
+                        <li><a href="">How to purchase items from the giftshop</a></li>
+
                     </ul>
                 </div>
 
