@@ -11,6 +11,7 @@ Tags: starkers, html5, naked, clean, basic
 $gradientStart:#222222;
 $gradientEnd  :#111111;
 
+$borderAndHeaderColor: #500001;
 $bgColor:white;
 $lightTextColor:white;
 $bodyBgColor:#98948D;
@@ -260,7 +261,7 @@ body>header {
     position: absolute;
     left: 0;
     width: 100%;
-    border-bottom: 4px solid #519392 !important;
+    border-bottom: 4px solid $borderAndHeaderColor !important;
     
 }
 .menu-main-menu-container{
@@ -278,7 +279,7 @@ body>header {
   background-repeat: repeat-x;
   border-color: $accentBorderColor;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
-  border-top:solid 7px #519392;
+  border-top:solid 7px $borderAndHeaderColor;
 }
 .main_footer a{
     color: white;
@@ -366,7 +367,7 @@ body>header {
  }
  
  .title_bar{
-     background: #519392;
+     background: $borderAndHeaderColor;
      color: $bgColor;
      padding: 3px 5px;
  }
@@ -429,7 +430,9 @@ body>header {
     text-transform: uppercase;
     margin-top: 20px;
 }
-.left_column{}
+.left_column{
+    padding-top: 10px;
+}
 .social_icons{
     text-align: center;
     padding-top: 20px;
