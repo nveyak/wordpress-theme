@@ -33,6 +33,7 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
  
 <script src="<?php bloginfo('template_directory'); ?>/js/modernizr-1.6.min.js"></script>
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 

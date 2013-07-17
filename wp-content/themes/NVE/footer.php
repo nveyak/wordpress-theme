@@ -61,6 +61,6 @@
     }
     console.log(leftHeight);
 </script>
-
+<script src="<?php bloginfo('template_directory'); ?>/js/nve-js.js"></script>
 </body>
 </html>
