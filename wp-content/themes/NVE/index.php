@@ -234,7 +234,7 @@ skilled members of the workforce.
                  <div class="border textwidget">
                     <h4>Employment</h4>
                     <ul>
-                        <li>Current openings</li>
+                        <li><a href="http://nveyak.deanohyeah.com/category/jobs/">Current openings</a></li>
                         <li>Employment applications</li>
                         <li>How to apply for a position</li>
 

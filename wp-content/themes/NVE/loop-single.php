@@ -48,6 +48,5 @@
 			<?php next_post_link( '%link', '%title ' . _x( '&rarr;', 'Next post link', 'starkers' ) . '' ); ?>
 		</nav>
 
-		<?php comments_template( '', true ); ?>
 
 <?php endwhile; // end of the loop. ?>
