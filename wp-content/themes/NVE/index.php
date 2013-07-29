@@ -264,9 +264,16 @@ skilled members of the workforce.
 			
 			<?php 
 			$countposts = 0;
-			while (have_posts()) : the_post(); ?>
-			<?php if ( in_category('2') || in_category('4') || in_category('5')) { } //gets post from
-			else if ($countposts == 0){
+			global $post;
+
+            $args = array( 'posts_per_page' => 3);
+
+            $myposts = get_posts( $args );
+
+            foreach( $myposts as $post ) : setup_postdata($post); 
+
+        
+			if ($countposts == 0){
     			$countposts++;
 			?>
 			
@@ -301,9 +308,9 @@ skilled members of the workforce.
     			
     			
     			
-			<?php } 
+			<?php }
 			
-			endwhile; ?>
+            endforeach; ?>
 
 
 			

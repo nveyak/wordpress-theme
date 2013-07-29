@@ -22,18 +22,16 @@
         	</ul>
         	    	<ul class="span4">
             	<li><a href="#">Home</a></Li>
-            	<li><a href="#">About Us</a></Li>
-            	<li><a href="#">Tribal Council</a></Li>
-            	<li><a href="#">Current Events</a></Li>
-            	<li><a href="#">CEyak Echo</a></Li>
+            	<li><a href="about/">About Us</a></Li>
+            	<li><a href="tribal-council/">Tribal Council</a></Li>
+            	<li><a href="category/news/">Current Events</a></Li>
         	</ul>
         	    	<ul class="span4">
-            	<li><a href="#">Employment</a></Li>
-            	<li><a href="#">Staff</a></Li>
-            	<li><a href="#">Staff Login</a></Li>
-            	<li><a href="#">Health Center</a></Li>
-            	<li><a href="#">Cultural Center</a></Li>
-            	<li><a href="#">Photos</a></Li>
+            	<li><a href="category/jobs/">Employment</a></Li>
+            	<li><a href="contact-us/">Staff</a></Li>
+            	<li><a href="http://nveyak.org/Login/">Staff Login</a></Li>
+            	<li><a href="ilanka-community-health-center/">Health Center</a></Li>
+            	<li><a href="ilanka-cultural-center/">Cultural Center</a></Li>
         	</ul>
     	<div>
 	</footer>
