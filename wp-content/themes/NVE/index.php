@@ -19,7 +19,7 @@ get_header();
     <div class="span1 social_icons">
         <a href="https://www.facebook.com/NativeVillageofEyak"><img src='<?php echo get_bloginfo('template_url')?>/images/facebook.png' width='15'/></a>
     </br>
-       <a href="#"> <img src='<?php echo get_bloginfo('template_url')?>/images/youtube.png' width='40'/></a>
+       <a href="http://www.youtube.com/watch?v=_ARwtMBwk3I"> <img src='<?php echo get_bloginfo('template_url')?>/images/youtube.png' width='40'/></a>
     </div>
     <div class="double-divider span11">
     			“The Native Village of Eyak Traditional Council is a tribal government that promotes self-determination to Native Village of Eyak tribal members."
@@ -251,7 +251,7 @@ skilled members of the workforce.
                     <ul>
                         <li><a href="">NVE projects</a></li>
                         <li><a href="">Shepard Pt (dvd)</a></li>
-                        <li><a href="">Sobriety (dvd)</a></li>
+                        <li><a href="http://vimeo.com/61858421">Sobriety (dvd)</a></li>
                         <li><a href="">Gallery</a></li>
                         <li><a href="">How to purchase items from the giftshop</a></li>
 
