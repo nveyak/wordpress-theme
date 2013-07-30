@@ -13,7 +13,7 @@ get_header(); ?>
     <section class="group span8">
 
 				<h1><?php
-					printf( __( 'Category Archives: %s', 'starkers' ), '' . single_cat_title( '', false ) . '' );
+					printf( __( '%s', 'starkers' ), '' . single_cat_title( '', false ) . '' );
 				?></h1>
 				<?php
 					$category_description = category_description();
