@@ -21,7 +21,9 @@ $accentBorderColor:#252525;
 $labelColor:#a1a1a1;
 $linkColor:	#9A4D4D;
 $lightest: #EFEEED;
-$mediumColor: #e7d6ae;
+$mediumColor: #fff9f0;
+$darkGray:#333;
+
 
 
 @import "css/reset.css";
@@ -191,7 +193,7 @@ body>header {
     h2  {
 		background:$mediumColor;
 		position:relative;
-		color:white;
+		color:$bodyBgColor;
 		text-align:center;
 		font-size: 11px;
 		margin: -10px -25px 0 -25px;
@@ -463,9 +465,9 @@ body>header {
     padding: 5px 15px 8px 15px;
     background: $mediumColor;
     h4{
-        color: white;
+        color: $bodyBgColor;
         margin-top: 0;
-        border-bottom: solid white 1px;
+        border-bottom: solid $bodyBgColor 1px;
     }
 }
 .widget{

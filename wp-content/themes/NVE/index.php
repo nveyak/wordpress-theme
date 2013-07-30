@@ -7,7 +7,13 @@
  * @since Starkers HTML5 3.0
  */
  
-get_header(); ?>
+get_header(); 
+			global $post;
+
+            $args = array( 'posts_per_page' => 3);
+
+            $myposts = get_posts( $args );
+?>
 
 <div class="caption page-wrapper row-fluid">
     <div class="span1 social_icons">
@@ -264,11 +270,6 @@ skilled members of the workforce.
 			
 			<?php 
 			$countposts = 0;
-			global $post;
-
-            $args = array( 'posts_per_page' => 3);
-
-            $myposts = get_posts( $args );
 
             foreach( $myposts as $post ) : setup_postdata($post); 
 
@@ -318,7 +319,7 @@ skilled members of the workforce.
 			<div class="row-fluid " style="margin-top:40px;">
 			<div class="span6">
 			    <h4 class="title_bar">Upcoming Events:</h4>
-			    <a href="#">Full Calendar</a>
+			    <a href="/calendar">Full Calendar</a>
                 <?php echo do_shortcode('[ai1ec view="agenda"]'); ?>
 			</div>
 			<div class="span6">
