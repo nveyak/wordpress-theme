@@ -105,7 +105,7 @@ as they become available.
         <div class="div-table-row group">
             <div class="div-table-td athlete div-table-td-0">	
                 <div class="arrow-down"></div>
-                <span class="athlete-name">Higher Education and Vocational scholarships</span>
+                <span class="athlete-name">Higher Ed and Vocational scholarships</span>
             </div>              
         </div> <!-- END OF div-table-row-->
 	    
