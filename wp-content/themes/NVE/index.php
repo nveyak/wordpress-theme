@@ -245,7 +245,7 @@ skilled members of the workforce.
                     <ul>
                         <li><a href="/jobs/">Current openings</a></li>
                         <li><a href="/jobs/#applications">Employment applications</a></li>
-                        <li><a href="jobs/#apply">How to apply for a position</a></li>
+                        <li><a href="/jobs/#apply">How to apply for a position</a></li>
 
                     </ul>
                 </div>
