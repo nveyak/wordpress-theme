@@ -229,18 +229,21 @@ skilled members of the workforce.
                 <div class="border textwidget">
                     <h4>Tribal Members</h4>
                     <ul>
-                        <li>Become an enrolled member</li>
-                        <li>Get my CIB</li>
-                        <li>Get my Birth Certificate</li>
-                        <li>Apply for a halibut subsistence card</li>
-                        <li>Give NVE my email address</li>
+                        <li><a href="mailto:Reyna@eyak-nsn.gov">Get my Tribal ID</a></li>
+                        <li><a href="/wp-content/uploads/2013/08/Tribalenrollmentapplication.pdf">Become an enrolled member</a></li>
+                        <li><a href="mailto:erin@eyak-nsn.gov">For assistance</a></li>
+                        <li><a href="wp-content/uploads/2013/08/CIBapplication.pdf">Get my CIB</a></li>
+                        <li><a href="http://dhss.alaska.gov/dph/VitalStats/Pages/default.aspx" target="_blank">Get my Birth Certificate</a></li>
+                        <li><a href="http://alaskafisheries.noaa.gov/ram/subsistence/halibut.htm#app">Apply for a halibut subsistence card</a></li>
+                        <li><a href="mailto:myra@eyak-nsn.gov">Give NVE my email address</a></li>
+                        <li><a href="mailto:Reyna@eyak-nsn.gov">Get my Tribal ID</a>
 
                     </ul>
                 </div>
                  <div class="border textwidget">
                     <h4>Employment</h4>
                     <ul>
-                        <li><a href="http://nveyak.deanohyeah.com/category/jobs/">Current openings</a></li>
+                        <li><a href="/jobs/">Current openings</a></li>
                         <li>Employment applications</li>
                         <li>How to apply for a position</li>
 
@@ -249,10 +252,10 @@ skilled members of the workforce.
                  <div class="border textwidget">
                     <h4>Visitors</h4>
                     <ul>
-                        <li><a href="">NVE projects</a></li>
-                        <li><a href="">Shepard Pt (dvd)</a></li>
+                        <li><a href="http://shepardpoint.com/contact.php">NVE projects</a></li>
+                        <li><a href="http://www.youtube.com/watch?v=_ARwtMBwk3I">Shepard Pt (dvd)</a></li>
                         <li><a href="http://vimeo.com/61858421">Sobriety (dvd)</a></li>
-                        <li><a href="">Gallery</a></li>
+                        <li><a href="sobriety-celebration/">Sobriety Gallery</a></li>
                         <li><a href="">How to purchase items from the giftshop</a></li>
 
                     </ul>
