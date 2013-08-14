@@ -236,7 +236,6 @@ skilled members of the workforce.
                         <li><a href="http://dhss.alaska.gov/dph/VitalStats/Pages/default.aspx" target="_blank">Get my Birth Certificate</a></li>
                         <li><a href="http://alaskafisheries.noaa.gov/ram/subsistence/halibut.htm#app">Apply for a halibut subsistence card</a></li>
                         <li><a href="mailto:myra@eyak-nsn.gov">Give NVE my email address</a></li>
-                        <li><a href="mailto:Reyna@eyak-nsn.gov">Get my Tribal ID</a>
 
                     </ul>
                 </div>
