@@ -11,8 +11,8 @@
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
 		<nav>
-			<?php previous_post_link( '%link', '' . _x( '&larr;', 'Previous post link', 'starkers' ) . ' %title' ); ?>
-			<?php next_post_link( '%link', '%title ' . _x( '&rarr;', 'Next post link', 'starkers' ) . '' ); ?>
+			<?php previous_post_link( '%link', '' . _x( '&larr;', 'Previous post link', 'starkers' ) . ' %title' ); ?>  
+			<?php echo ' | '; next_post_link( '%link', '%title ' . _x( '&rarr;', 'Next post link', 'starkers' ) . '' ); ?>
 		</nav>
 		
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -37,16 +37,11 @@
 			<?php endif; ?>
 			
 			<footer>
-				<?php starkers_posted_in(); ?>
+				
 				<?php edit_post_link( __( 'Edit', 'starkers' ), '', '' ); ?>
 			</footer>
 				
 		</article>
-
-		<nav>
-			<?php previous_post_link( '%link', '' . _x( '&larr;', 'Previous post link', 'starkers' ) . ' %title' ); ?>
-			<?php next_post_link( '%link', '%title ' . _x( '&rarr;', 'Next post link', 'starkers' ) . '' ); ?>
-		</nav>
 
 
 <?php endwhile; // end of the loop. ?>
