@@ -100,6 +100,5 @@
 				
 			</article>
 
-			<?php comments_template(); ?>
 
 <?php endwhile; // end of the loop. ?>

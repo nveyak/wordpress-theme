@@ -1,7 +1,6 @@
     $(document).ready(function() {
         initHovers();
         initClicks();
-        initOther();
         calculateInfoBoxLefts();
     });
 
@@ -73,39 +72,6 @@
             }
         }); //end click function
 
-    }
-
-    function initOther() {
-        /* fixed header */
-        var div = $("#header");
-        var start = $(div).offset().top;
-        var headerHeight = $("#header").height();
-        $("#header_placeholder").css("height", headerHeight);
-
-        $.event.add(window, "scroll", function() {
-            var p = $(window).scrollTop();
-            if (p > start) {
-                $(div).css("position", "fixed").css("top", "0px");
-                $("#header_placeholder").show();
-            } else {
-                $(div).css("position", "static").css("top", "");
-                $("#header_placeholder").hide();
-            }
-        });
-        
-        /*adds today class to today*/
-        var d = new Date();
-        var x = d.getDate();
-        var m = d.getMonth() + 1;
-        var today = m + "/" + x;
-        var dates = $("#table_nav .div-table-td");
-        $.each(dates, function(index, date) { 
-          dater = $(this).text();
-	        if (dater == today) {
-		       $(this).addClass("today");
-	        }
-	    });
-        
     }
 
 

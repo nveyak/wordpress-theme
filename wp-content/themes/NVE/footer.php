@@ -36,14 +36,7 @@
     	<div>
 	</footer>
 
-<?php
-	/* Always have wp_footer() just before the closing </body>
-	 * tag of your theme, or you will break many plugins, which
-	 * generally use this hook to reference JavaScript files.
-	 */
 
-	wp_footer();
-?>
     <script>
     $('#posts article').click(function(){
         var aTag = $(this).find('a').attr('href');
@@ -60,5 +53,13 @@
     console.log(leftHeight);
 </script>
 <script src="<?php bloginfo('template_directory'); ?>/js/nve-js.js"></script>
+<?php
+	/* Always have wp_footer() just before the closing </body>
+	 * tag of your theme, or you will break many plugins, which
+	 * generally use this hook to reference JavaScript files.
+	 */
+
+	wp_footer();
+?>
 </body>
 </html>
