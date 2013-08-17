@@ -50,7 +50,6 @@
     if(leftHeight>rightHeight){
         $('.main_side_bar').addClass('longer');
     }
-    console.log(leftHeight);
 </script>
 <script src="<?php bloginfo('template_directory'); ?>/js/nve-js.js"></script>
 <?php
