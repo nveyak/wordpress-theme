@@ -7,7 +7,7 @@
  * @since Starkers HTML5 3.0
  */
 ?>
-    <div class="span4" style="height:20px;background:#98948d;"></div>
+
 	<aside class="span4 main_side_bar">
 	
 <?php

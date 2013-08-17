@@ -8,7 +8,8 @@
  */
 
 get_header(); ?>
-
+<div class="page-wrapper row-fluid">
+<section class="left_column group span8">
 <?php if ( have_posts() ) : ?>
 		<h1><?php printf( __( 'Search Results for: %s', 'starkers' ), '' . get_search_query() . '' ); ?></h1>
 			<?php
@@ -19,6 +20,8 @@ get_header(); ?>
 			<p><?php _e( 'Sorry, but nothing matched your search criteria. Please try again with some different keywords.', 'starkers' ); ?></p>
 			<?php get_search_form(); ?>
 <?php endif; ?>
+</section>
 
 <?php get_sidebar(); ?>
+</div>
 <?php get_footer(); ?>

@@ -231,7 +231,6 @@ skilled members of the workforce.
                     <ul>
                         <li><a href="mailto:Reyna@eyak-nsn.gov">Get my Tribal ID</a></li>
                         <li><a href="/wp-content/uploads/2013/08/Tribalenrollmentapplication.pdf">Become an enrolled member</a></li>
-                        <li><a href="mailto:erin@eyak-nsn.gov">For assistance</a></li>
                         <li><a href="wp-content/uploads/2013/08/CIBapplication.pdf">Get my CIB</a></li>
                         <li><a href="http://dhss.alaska.gov/dph/VitalStats/Pages/default.aspx" target="_blank">Get my Birth Certificate</a></li>
                         <li><a href="http://alaskafisheries.noaa.gov/ram/subsistence/halibut.htm#app">Apply for a halibut subsistence card</a></li>
