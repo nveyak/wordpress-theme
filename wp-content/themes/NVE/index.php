@@ -325,7 +325,7 @@ skilled members of the workforce.
 			</div>
 			<div class="span6">
 			    <h4 class="title_bar">Promo area:</h4>
-    			<img src="http://nveyak.com/fliers/sobriety/2013themecontest.jpg"/>
+    			<img src="/wp-content/uploads/2013/08/scanner.jpeg"/>
 			</div>
 			</div>
 		</section>
