@@ -326,7 +326,6 @@ skilled members of the workforce.
 			<div class="span6">
 			    <h4 class="title_bar">Promo area:</h4>
     			<a href="/wp-content/uploads/2013/08/scanner.jpeg"><img src="/wp-content/uploads/2013/08/scanner.jpeg"/></a>
-    			<a href="/wp-content/uploads/2013/08/scanner.jpeg"><img src="/wp-content/uploads/2013/08/scanner.jpeg" /></a>
 			</div>
 			</div>
 		</section>
