@@ -254,7 +254,7 @@ skilled members of the workforce.
                         <li><a href="http://www.youtube.com/watch?v=_ARwtMBwk3I">Shepard Pt (dvd)</a></li>
                         <li><a href="http://vimeo.com/61858421">Sobriety (dvd)</a></li>
                         <li><a href="sobriety-celebration/">Sobriety Gallery</a></li>
-                        <li><a href="">How to purchase items from the giftshop</a></li>
+                        <li><a href="/how-to-purchase-items-from-the-illanka-store">How to purchase items from the giftshop</a></li>
 
                     </ul>
                 </div>
