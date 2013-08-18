@@ -356,7 +356,7 @@ body>header {
  }
  aside{
      .title_bar{
-        border-top: $borderAndHeaderColor solid 8px;
+        border-top: $borderAndHeaderColor solid 5px;
         color: #333;
         background: none;
     }
@@ -551,7 +551,7 @@ aside{
         color:white;
     }
      .athlete {
-        width:260px !important;
+        width:385px !important;
         background:white;
         text-align: left !important;
          position: relative;
