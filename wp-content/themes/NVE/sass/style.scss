@@ -158,8 +158,10 @@ h1,h2,h3,h4,h5{
 
 body{
     background: $bodyBgColor;
-    font-size: 11px;
-    p,li{font-size: 13px;}
+    font-size: 16px;
+    line-height: 1.5;
+    color:$darkGray;
+    li {font-size: 13px;}
 }	
 p {
     margin-bottom: 8px;
