@@ -352,6 +352,11 @@ body>header {
    z-index: -1;
  }
  aside{
+     .title_bar{
+        border-top: #500001 solid 8px;
+        color: #333;
+        background: none;
+    }
     
      position: relative;
     z-index: 2;
@@ -371,10 +376,9 @@ body>header {
  }
  
  .title_bar{
-    border-top: #500001 solid 8px;
-    color: #333;
-    padding: 3px 5px;
-    text-transform: uppercase;
+     background: $borderAndHeaderColor;
+     color: $bgColor;
+     padding: 3px 5px;
  }
  .page-wrapper{
      position: relative;
