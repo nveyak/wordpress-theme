@@ -368,7 +368,9 @@ body>header {
     .border{color:#333;}
     li:hover{background:$lightest; cursor: pointer;}
     h3,h4{color: lighten($labelColor,20%);}
-    
+    p{
+        padding-left: 0 !important;
+    }
     &.longer{
         position: absolute;
         right: 0;
