@@ -10,7 +10,7 @@
 get_header(); 
 			global $post;
 
-            $args = array( 'posts_per_page' => 3
+            $args = array( 'posts_per_page' => 3,
                             'category'         => '2,3',
                         );
 
