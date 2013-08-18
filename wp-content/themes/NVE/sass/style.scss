@@ -349,14 +349,12 @@ body>header {
     top: 0;
     bottom: 0;
     right: 0;
-    z-index: -1;
+   z-index: -1;
  }
  aside{
-    position: absolute;
-    top:0;
-    bottom: 0;
-    right: 0;
-    z-index: 1;
+    
+     position: relative;
+    z-index: 2;
     padding: 10px;
     color: white;
     .border{color:#333;}
@@ -373,9 +371,10 @@ body>header {
  }
  
  .title_bar{
-     background: $borderAndHeaderColor;
-     color: $bgColor;
-     padding: 3px 5px;
+    border-top: #500001 solid 8px;
+    color: #333;
+    padding: 3px 5px;
+    text-transform: uppercase;
  }
  .page-wrapper{
      position: relative;
