@@ -21,7 +21,7 @@
             	
         	</ul>
         	    	<ul class="span4">
-            	<li><a href="#">Home</a></Li>
+            	<li><a href="/">Home</a></Li>
             	<li><a href="/about/">About Us</a></Li>
             	<li><a href="/tribal-council/">Tribal Council</a></Li>
             	<li><a href="/category/news/">Current Events</a></Li>
