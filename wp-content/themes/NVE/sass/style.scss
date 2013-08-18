@@ -149,12 +149,11 @@ h1,h2,h3,h4,h5{
     max-width: 940px;
 	clear: none;
 	margin:0 auto;  
-	background: 	#FFFFFF; 
-	/* background: url('images/noise.png'); */
 	
 }
 .page-wrapper{
     padding: 0 0 0 9px;
+    background: url('images/noise.png');
 }
 
 body{
@@ -350,7 +349,10 @@ body>header {
     z-index: -1;
  }
  aside{
-    position: relative;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
     z-index: 1;
     padding: 10px;
     color: white;
@@ -409,6 +411,8 @@ body>header {
 }
 
 @media (max-width: 767px) {
+aside{
+    position: relative;}
     body{margin: 0 20px;}
 }
 /* index styles */
@@ -489,7 +493,9 @@ body>header {
     display: none !important;
 }
 
-
+.img_float_left{
+    margin: 0 10px 10px 0;
+}
 
 
 
