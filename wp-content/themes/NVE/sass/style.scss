@@ -360,8 +360,10 @@ body>header {
         color: #333;
         background: none;
     }
-    
-     position: relative;
+    top: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
     z-index: 2;
     padding: 10px;
     color: white;
@@ -505,7 +507,7 @@ aside{
 }
 
 .img_float_left{
-    margin: 0 10px 10px -40px;
+    margin: 0 15px 15px -40px;
     float:left;
     img{
         max-width:intrinsic;
