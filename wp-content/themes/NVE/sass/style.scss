@@ -142,7 +142,7 @@ a {
 }
 
 h1,h2,h3,h4,h5{
-    a{color: #333;}
+    a{color: $darkGray;}
 }
 
 .main-nav, .page-wrapper, body>header, .footer_inner{
@@ -360,7 +360,7 @@ body>header {
     color: white;
     .border{color:#333;}
     li:hover{background:$lightest; cursor: pointer;}
-    h3,h4{color: $labelColor;}
+    h3,h4{color: lighten($labelColor,20%);}
     
     &.longer{
         position: absolute;
