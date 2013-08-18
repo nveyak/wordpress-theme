@@ -64,7 +64,7 @@
 	            
 	            <?php endif; ?>
 	            
-	            <?php comments_popup_link( __( 'Leave a comment', 'starkers' ), __( '1 Comment', 'starkers' ), __( '% Comments', 'starkers' ) ); ?>
+	           
 	            <?php edit_post_link( __( 'Edit', 'starkers' ), '| ', '' ); ?>
             </footer>
         </article>
@@ -82,7 +82,7 @@
         <?php endif; ?>
          
             <footer>
-                <?php starkers_posted_on(); ?> | <?php comments_popup_link( __( 'Leave a comment', 'starkers' ), __( '1 Comment', 'starkers' ), __( '% Comments', 'starkers' ) ); ?> <?php edit_post_link( __( 'Edit', 'starkers' ), '| ', '' ); ?>
+               <?php edit_post_link( __( 'Edit', 'starkers' ), '| ', '' ); ?>
             </footer>
         </article>
  
@@ -117,13 +117,13 @@
                 ?>
                         <?php printf( __( 'Tagged %2$s', 'starkers' ), 'entry-utility-prep entry-utility-prep-tag-links', $tags_list ); ?> |
                 <?php endif; ?>
-                <?php comments_popup_link( __( 'Leave a comment', 'starkers' ), __( '1 Comment', 'starkers' ), __( '% Comments', 'starkers' ) ); ?>
+               
                 <?php edit_post_link( __( 'Edit', 'starkers' ), '| ', '' ); ?>
                  
             </footer>
 		</article>
  
-            <?php comments_template( '', true ); ?>
+           
  
     <?php endif; // This was the if statement that broke the loop into three parts based on categories. ?>
  
