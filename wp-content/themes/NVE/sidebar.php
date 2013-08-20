@@ -60,8 +60,9 @@
             
             <?php wp_nav_menu( array('theme_location' => 'side_menu' )); ?>
         	</div>
+        	<div class="border side_bar_nav">
         	<h4 class="title_bar">Web Cam:</h4>
         	          <img src="http://www.eyak-nsn.gov:9000/snapshot.cgi?user=guest&amp;pwd=&amp;blah=120" id="reloader" onload="setTimeout('document.getElementById(\'reloader\').src=\'http://www.eyak-nsn.gov:9000/snapshot.cgi?user=guest&amp;pwd=&amp;blah=\'+new Date().getMilliseconds()', 5000)" width="277">
-    	
+        	</div>
 	</aside>
 	
