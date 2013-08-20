@@ -7,7 +7,7 @@
  * @since Starkers HTML5 3.0
  */
 ?>
-
+<div class="aside_background span4"></div>
 	<aside class="span4 main_side_bar">
 	
 <?php
@@ -61,6 +61,6 @@
         	</div>
         	<h4 class="title_bar">Web Cam:</h4>
         	          <img src="http://www.eyak-nsn.gov:9000/snapshot.cgi?user=guest&amp;pwd=&amp;blah=120" id="reloader" onload="setTimeout('document.getElementById(\'reloader\').src=\'http://www.eyak-nsn.gov:9000/snapshot.cgi?user=guest&amp;pwd=&amp;blah=\'+new Date().getMilliseconds()', 5000)" width="277">
-    	<div class="aside_background span12"></div>
+    	
 	</aside>
 	
