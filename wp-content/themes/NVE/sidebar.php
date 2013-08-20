@@ -8,6 +8,7 @@
  */
 ?>
 <div class="aside_background span4"></div>
+
 	<aside class="span4 main_side_bar">
 	
 <?php
