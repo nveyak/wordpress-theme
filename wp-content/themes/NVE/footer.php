@@ -27,7 +27,7 @@
             	<li><a href="/category/news/">Current Events</a></Li>
         	</ul>
         	    	<ul class="span4">
-            	<li><a href="/category/jobs/">Employment</a></Li>
+            	<li><a href="/jobs/">Employment</a></Li>
             	<li><a href="/contact-us/">Staff</a></Li>
             	<li><a href="http://nveyak.org/Login/">Staff Login</a></Li>
             	<li><a href="/ilanka-community-health-center/">Health Center</a></Li>
