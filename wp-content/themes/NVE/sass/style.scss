@@ -156,6 +156,7 @@ h1,h2,h3,h4,h5{
         padding-left: 45px;
     }
     padding-left:10px;
+    
     box-sizing: border-box;
     background: url('images/noise.png');
 }
@@ -421,11 +422,17 @@ body>header {
 }
 
 @media (max-width: 767px) {
+.page-wrapper{
+     padding-right: 10px;
+}
+   
+
 .athlete-name{
     font-size: .8em;
 }
 #posts.full_width_background{
     width: auto;
+    margin-right: -10px;
 }
 .aside_background{
     top:auto;
@@ -504,6 +511,7 @@ aside{
     background: $lightest;
     width: 105%;
     margin-left: -9px;
+    
     padding: 10px 0;
 }
 
