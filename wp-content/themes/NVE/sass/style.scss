@@ -422,6 +422,21 @@ body>header {
 }
 
 @media (max-width: 767px) {
+#header_left {
+    width: 17%;
+    background: url('/nveyak/wp-content/themes/NVE/images/logo-only.jpg');
+    background-repeat: no-repeat;
+    height: 103px;
+    img{
+    display: none;
+    }
+    h2{
+        margin-top: 73px;
+        display: none;
+        
+    }
+}
+
 .page-wrapper{
      padding-right: 10px;
 }
