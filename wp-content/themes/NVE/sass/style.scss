@@ -421,6 +421,9 @@ body>header {
 }
 
 @media (max-width: 767px) {
+.aside_background{
+    top:auto;
+}
 aside{
     position: relative;}
     body{margin: 0 20px;}
