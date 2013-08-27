@@ -62,7 +62,8 @@
         	</div>
         	<div class="border side_bar_nav">
         	<h4 class="title_bar">Web Cam:</h4>
-        	          <img src="http://www.eyak-nsn.gov:9000/snapshot.cgi?user=guest&amp;pwd=&amp;blah=120" id="reloader" onload="setTimeout('document.getElementById(\'reloader\').src=\'http://www.eyak-nsn.gov:9000/snapshot.cgi?user=guest&amp;pwd=&amp;blah=\'+new Date().getMilliseconds()', 5000)" width="277">
+
+        	          <img src="http://66.223.160.62:9000/snapshot.cgi?user=admin&pwd=&count=0" id="reloader" onload="setTimeout('document.getElementById(\'reloader\').src=\'http://www.eyak-nsn.gov:9000/snapshot.cgi?user=guest&amp;pwd=&amp;blah=\'+new Date().getMilliseconds()', 5000)" width="277">
         	</div>
 	</aside>
 	
