@@ -200,12 +200,13 @@ skilled members of the workforce.
             <div class="div-table-td athlete div-table-td-0">	
                 <div class="arrow-down"></div>
                 <span class="athlete-name">Youth Council</span>
+
             </div>              
         </div> <!-- END OF div-table-row-->
 	    
 	    <div class="athlete_info hide">   
            <p>
-              
+                For more information on Tribal Youth Council or the Parent Advisory Committee, please contact Cheryl Eleshansky at (907) 424-7738 or cheryl@eyak-nsn.gov.
            </p>
         </div><!--end of row-->
         
