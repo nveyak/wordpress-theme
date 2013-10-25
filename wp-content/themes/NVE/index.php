@@ -99,7 +99,7 @@ as they become available.
 	    
 	    <div class="athlete_info hide">   
            <p>
-               The HUD housing program seeks to assist with providing clean, safe home rehabilitation to elegible Alaska Natives and American Indians.
+               The HUD housing program seeks to assist with providing clean, safe home rehabilitation to eligible Alaska Natives and American Indians.
            </p>
         </div><!--end of row-->
         
@@ -140,7 +140,7 @@ skilled members of the workforce.
 	    
 	    <div class="athlete_info hide">   
            <p>
-              Our environmental mitigation programs identify and mitigate debris and pollutants on elegible sites.
+              Our environmental mitigation programs identify and mitigate debris and pollutants on eligible sites.
            </p>
         </div><!--end of row-->
 
@@ -206,7 +206,7 @@ skilled members of the workforce.
 	    
 	    <div class="athlete_info hide">   
            <p>
-                For more information on Tribal Youth Council or the Parent Advisory Committee, please contact Cheryl Eleshansky at (907) 424-7738 or cheryl@eyak-nsn.gov.
+            For more information on Tribal Youth Council or the Parent Advisory Committee, please contact Cheryl Eleshansky at (907) 424-7738 or cheryl@eyak-nsn.gov.
            </p>
         </div><!--end of row-->
         
