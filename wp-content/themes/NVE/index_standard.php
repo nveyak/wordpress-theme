@@ -17,32 +17,6 @@ get_header();
             $myposts = get_posts( $args );
 ?>
 
-
-<div class="page-wrapper row-fluid">
-    <div class="caption double-divider span12" style="text-align:center">
-          <h2>“Come join us for the 20th Annual Sobriety Celebration!"</h2>
-    </div>
-    <div class="span4">
-      <p>The Native Village of Eyak presents The 20th Annual Sobriety Celebration & Memorial Potlatch.</p>
-      <p>Strengthening Spirit and Community Through Sobriety. November 15th-17th 2013 in Cordova, Alaska at the Cordova High School</p>
-      <p>For more info contact Belen Cook at 424-7738 or by <a href="mailto:belen@eyak-nsn.gov">email</a></p>
-    </div>
-    <div class="span4">
-      <h4>Schedule:</h4>
-      <span>
-        <a href="http://nveyak.com/wp-content/uploads/2013/11/20th-Annual-Sobriety-FINAL-Schedule.jpg" class="thickbox">View</a>
-        |
-        <a href="">Download</a>
-      </span>
-      <?php echo do_shortcode('[ai1ec view="agenda"]'); ?>
-    </div>
-    <div class="span3">
-      <a href="http://nveyak.com/wp-content/uploads/2013/11/kodiak_Flyer.jpg" class="thickbox"><img src="http://nveyak.com/wp-content/uploads/2013/11/kodiak_Flyer.jpg" scale="0"></a>
-    </div>
-</div>
-
-
-
 <div class="caption page-wrapper row-fluid">
     <div class="span1 social_icons">
         <a href="https://www.facebook.com/NativeVillageofEyak"><img src='<?php echo get_bloginfo('template_url')?>/images/facebook.png' width='15'/></a>
