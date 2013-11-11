@@ -32,7 +32,7 @@ get_header();
       <span>
         <a href="http://nveyak.com/wp-content/uploads/2013/11/20th-Annual-Sobriety-FINAL-Schedule.jpg" class="thickbox">View</a>
         |
-        <a href="">Download</a>
+        <a href="http://nveyak.com/wp-content/uploads/2013/11/20th-Annual-Sobriety-FINAL-Schedule.pdf">Download</a>
       </span>
       <?php echo do_shortcode('[ai1ec view="agenda"]'); ?>
     </div>
