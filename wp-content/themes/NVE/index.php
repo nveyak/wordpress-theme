@@ -38,6 +38,7 @@ get_header();
     </div>
     <div class="span3">
       <a href="http://nveyak.com/wp-content/uploads/2013/11/kodiak_Flyer.jpg" class="thickbox"><img src="http://nveyak.com/wp-content/uploads/2013/11/kodiak_Flyer.jpg" scale="0"></a>
+      <a href="http://nveyak.com/wp-content/uploads/2013/11/youth_Event.jpg" class="thickbox"><img src="http://nveyak.com/wp-content/uploads/2013/11/youth_Event.jpg" scale="0"></a>
     </div>
 </div>
 
