@@ -30,9 +30,9 @@ get_header();
     <div class="span4">
       <h4>Schedule:</h4>
       <span>
-        <a href="http://nveyak.com/wp-content/uploads/2013/11/20th-Annual-Sobriety-FINAL-Schedule.jpg" class="thickbox">View</a>
+        <a href="http://nveyak.com/wp-content/uploads/2013/11/SKMBT_C45113111317020.jpg" class="thickbox">View</a>
         |
-        <a href="http://nveyak.com/wp-content/uploads/2013/11/20th-Annual-Sobriety-FINAL-Schedule.pdf">Download</a>
+        <a href="http://nveyak.com/wp-content/uploads/2013/11/SKMBT_C45113111317020.pdf">Download</a>
       </span>
       <?php echo do_shortcode('[ai1ec view="agenda"]'); ?>
     </div>
