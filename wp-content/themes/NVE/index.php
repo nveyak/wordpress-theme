@@ -28,9 +28,9 @@ get_header();
       <p>For more info contact Belen Cook at 424-7738 or by <a href="mailto:belen@eyak-nsn.gov">email</a></p>
     </div>
     <div class="span4">
-      <h4>Schedule:</h4>
+      <span>Schedule: </span>
       <span>
-        <a href="http://nveyak.com/wp-content/uploads/2013/11/SKMBT_C45113111317020.jpg" class="thickbox">View</a>
+        <a href="http://nveyak.com/wp-content/uploads/2013/11/SKMBT_C45113111317020.jpg" class="thickbox"> View</a>
         |
         <a href="http://nveyak.com/wp-content/uploads/2013/11/SKMBT_C45113111317020.pdf">Download</a>
       </span>
