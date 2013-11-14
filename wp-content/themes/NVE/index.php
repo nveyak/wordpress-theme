@@ -26,6 +26,7 @@ get_header();
       <p>The Native Village of Eyak presents The 20th Annual Sobriety Celebration & Memorial Potlatch.</p>
       <p>Strengthening Spirit and Community Through Sobriety. November 15th-17th 2013 in Cordova, Alaska at the Cordova High School</p>
       <p>For more info contact Belen Cook at 424-7738 or by <a href="mailto:belen@eyak-nsn.gov">email</a></p>
+      <p>Watch streaming video <a href="http://www.asln.net" target="_blank">here</a></p>
     </div>
     <div class="span4">
       <span>Schedule: </span>
