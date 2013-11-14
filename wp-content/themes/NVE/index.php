@@ -30,15 +30,15 @@ get_header();
     <div class="span4">
       <span>Schedule: </span>
       <span>
-        <a href="http://nveyak.com/wp-content/uploads/2013/11/SKMBT_C45113111317020.jpg" class="thickbox"> View</a>
+        <a href="http://nveyak.com/wp-content/uploads/2013/11/SKMBT_C45113111317020.jpg" class="thickbox" rel="sobriety-fliers"> View</a>
         |
         <a href="http://nveyak.com/wp-content/uploads/2013/11/SKMBT_C45113111317020.pdf">Download</a>
       </span>
       <?php echo do_shortcode('[ai1ec view="agenda"]'); ?>
     </div>
     <div class="span3">
-      <a href="http://nveyak.com/wp-content/uploads/2013/11/kodiak_Flyer.jpg" class="thickbox"><img src="http://nveyak.com/wp-content/uploads/2013/11/kodiak_Flyer.jpg" scale="0"></a>
-      <a href="http://nveyak.com/wp-content/uploads/2013/11/youth_Event.jpg" class="thickbox"><img src="http://nveyak.com/wp-content/uploads/2013/11/youth_Event.jpg" scale="0"></a>
+      <a href="http://nveyak.com/wp-content/uploads/2013/11/kodiak_Flyer.jpg" class="thickbox" rel="sobriety-fliers"><img src="http://nveyak.com/wp-content/uploads/2013/11/kodiak_Flyer.jpg" scale="0"></a>
+      <a href="http://nveyak.com/wp-content/uploads/2013/11/youth_Event.jpg" class="thickbox" rel="sobriety-fliers"><img src="http://nveyak.com/wp-content/uploads/2013/11/youth_Event.jpg" scale="0"></a>
     </div>
 </div>
 
