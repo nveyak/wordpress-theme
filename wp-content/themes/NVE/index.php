@@ -34,6 +34,12 @@ get_header();
         |
         <a href="http://nveyak.com/wp-content/uploads/2013/11/SKMBT_C45113111317020.pdf">Download</a>
       </span>
+      <style type="text/css">
+      #ai1ec-container{
+        height: 500px;
+        overflow: scroll;
+      }
+      </style>
       <?php echo do_shortcode('[ai1ec view="agenda"]'); ?>
     </div>
     <div class="span3">
