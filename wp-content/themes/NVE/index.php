@@ -23,10 +23,11 @@ get_header();
           <h2>“Come join us for the 20th Annual Sobriety Celebration!"</h2>
     </div>
     <div class="span4">
-      <p>The Native Village of Eyak presents The 20th Annual Sobriety Celebration & Memorial Potlatch.</p>
+      <p class="lead">The Native Village of Eyak presents The 20th Annual Sobriety Celebration & Memorial Potlatch.</p>
       <p>Strengthening Spirit and Community Through Sobriety. November 15th-17th 2013 in Cordova, Alaska at the Cordova High School</p>
-      <p>For more info contact Belen Cook at 424-7738 or by <a href="mailto:belen@eyak-nsn.gov">email</a></p>
-      <p>Watch streaming video <a href="http://www.asln.net" target="_blank">here</a></p>
+      <p>For more info contact Belen Cook at 424-7738 or by <a class="btn btn-mini" href="mailto:belen@eyak-nsn.gov"><i class="icon-envelope"></i> email</a></p>
+      <p class="text-info lead">Governor Sean Parnell address attendees at The Native Village of Eyak 20th annual Sobriety Memorial Potlach </br><a class="btn btn-large" href="http://www.asln.net" target="_blank"><i class="icon-film"></i>Stream video</a>
+      </p>
     </div>
     <div class="span4">
       <span>Schedule: </span>
@@ -44,8 +45,8 @@ get_header();
       <?php echo do_shortcode('[ai1ec view="agenda"]'); ?>
     </div>
     <div class="span3">
-      <a href="http://nveyak.com/wp-content/uploads/2013/11/kodiak_Flyer.jpg" class="thickbox" rel="sobriety-fliers"><img src="http://nveyak.com/wp-content/uploads/2013/11/kodiak_Flyer.jpg" scale="0"></a>
-      <a href="http://nveyak.com/wp-content/uploads/2013/11/youth_Event.jpg" class="thickbox" rel="sobriety-fliers"><img src="http://nveyak.com/wp-content/uploads/2013/11/youth_Event.jpg" scale="0"></a>
+      <a href="http://nveyak.com/wp-content/uploads/2013/11/kodiak_Flyer.jpg" class="thickbox" rel="sobriety-fliers"><img class="img-polaroid" src="http://nveyak.com/wp-content/uploads/2013/11/kodiak_Flyer.jpg" scale="0"></a>
+      <a href="http://nveyak.com/wp-content/uploads/2013/11/youth_Event.jpg" class="thickbox" rel="sobriety-fliers"><img class="img-polaroid" src="http://nveyak.com/wp-content/uploads/2013/11/youth_Event.jpg" scale="0"></a>
     </div>
 </div>
 
