@@ -45,6 +45,8 @@ get_header();
       <?php echo do_shortcode('[ai1ec view="agenda"]'); ?>
     </div>
     <div class="span3">
+      <h5>Event Fliers:</h5>
+      <span><i class="icon-zoom-in"></i> Click to Zoom</span>
       <a href="http://nveyak.com/wp-content/uploads/2013/11/kodiak_Flyer.jpg" class="thickbox" rel="sobriety-fliers"><img class="img-polaroid" src="http://nveyak.com/wp-content/uploads/2013/11/kodiak_Flyer.jpg" scale="0"></a>
       <a href="http://nveyak.com/wp-content/uploads/2013/11/youth_Event.jpg" class="thickbox" rel="sobriety-fliers"><img class="img-polaroid" src="http://nveyak.com/wp-content/uploads/2013/11/youth_Event.jpg" scale="0"></a>
     </div>
