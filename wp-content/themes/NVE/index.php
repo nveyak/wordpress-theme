@@ -34,7 +34,7 @@ get_header();
       <span>
         <a href="http://nveyak.com/wp-content/uploads/2013/11/SKMBT_C45113111317020.jpg" class="thickbox" rel="sobriety-fliers"> View</a>
         |
-        <a href="http://nveyak.com/wp-content/uploads/2013/11/SKMBT_C45113111317020.pdf">Download</a>
+        <a href="http://nveyak.com/wp-content/uploads/2013/11/20th-Annual-Sobriety-Schedule.pdf">Download</a>
       </span>
       <style type="text/css">
       #ai1ec-container{
