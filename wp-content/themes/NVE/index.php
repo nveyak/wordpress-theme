@@ -26,7 +26,7 @@ get_header();
       <p class="lead">The Native Village of Eyak presents The 20th Annual Sobriety Celebration & Memorial Potlatch.</p>
       <p>Strengthening Spirit and Community Through Sobriety. November 15th-17th 2013 in Cordova, Alaska at the Cordova High School</p>
       <p>For more info contact Belen Cook at 424-7738 or by <a class="btn btn-mini" href="mailto:belen@eyak-nsn.gov"><i class="icon-envelope"></i> email</a></p>
-      <p class="text-info lead">Governor Sean Parnell address attendees at The Native Village of Eyak 20th annual Sobriety Memorial Potlach </br><a class="btn btn-large" href="http://www.asln.net" target="_blank"><i class="icon-film"></i>Stream video</a>
+      <p class="text-info lead">Watch live! Friday, 7pm and Saturday, 10am</br><a class="btn btn-large" href="http://www.asln.net" target="_blank"><i class="icon-film"></i>Stream video</a>
       </p>
     </div>
     <div class="span4">
