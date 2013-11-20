@@ -17,43 +17,6 @@ get_header();
             $myposts = get_posts( $args );
 ?>
 
-
-<div class="page-wrapper row-fluid">
-    <div class="caption double-divider span12" style="text-align:center">
-          <h2>“Come join us for the 20th Annual Sobriety Celebration!"</h2>
-    </div>
-    <div class="span4">
-      <p class="lead">The Native Village of Eyak presents The 20th Annual Sobriety Celebration & Memorial Potlatch.</p>
-      <p>Strengthening Spirit and Community Through Sobriety. November 15th-17th 2013 in Cordova, Alaska at the Cordova High School</p>
-      <p>For more info contact Belen Cook at 424-7738 or by <a class="btn btn-mini" href="mailto:belen@eyak-nsn.gov"><i class="icon-envelope"></i> email</a></p>
-      <p class="text-info lead">Watch live! Friday, 7pm and Saturday, 10am</br><a class="btn btn-large" href="http://www.asln.net" target="_blank"><i class="icon-film"></i>Stream video</a>
-      </p>
-    </div>
-    <div class="span4">
-      <span>Schedule: </span>
-      <span>
-        <a href="http://nveyak.com/wp-content/uploads/2013/11/SKMBT_C45113111317020.jpg" class="thickbox" rel="sobriety-fliers"> View</a>
-        |
-        <a href="http://nveyak.com/wp-content/uploads/2013/11/20th-Annual-Sobriety-Schedule.pdf">Download</a>
-      </span>
-      <style type="text/css">
-      #ai1ec-container{
-        height: 500px;
-        overflow: scroll;
-      }
-      </style>
-      <?php echo do_shortcode('[ai1ec view="agenda"]'); ?>
-    </div>
-    <div class="span3">
-      <h5>Event Fliers:</h5>
-      <span><i class="icon-zoom-in"></i> Click to Zoom</span>
-      <a href="http://nveyak.com/wp-content/uploads/2013/11/kodiak_Flyer.jpg" class="thickbox" rel="sobriety-fliers"><img class="img-polaroid" src="http://nveyak.com/wp-content/uploads/2013/11/kodiak_Flyer.jpg" scale="0"></a>
-      <a href="http://nveyak.com/wp-content/uploads/2013/11/youth_Event.jpg" class="thickbox" rel="sobriety-fliers"><img class="img-polaroid" src="http://nveyak.com/wp-content/uploads/2013/11/youth_Event.jpg" scale="0"></a>
-    </div>
-</div>
-
-
-
 <div class="caption page-wrapper row-fluid">
     <div class="span1 social_icons">
         <a href="https://www.facebook.com/NativeVillageofEyak"><img src='<?php echo get_bloginfo('template_url')?>/images/facebook.png' width='15'/></a>
