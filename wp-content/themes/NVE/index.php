@@ -21,7 +21,7 @@ get_header();
     <div class="span1 social_icons">
         <a href="https://www.facebook.com/NativeVillageofEyak"><img src='<?php echo get_bloginfo('template_url')?>/images/facebook.png' width='15'/></a>
     </br>
-       <a href="http://www.youtube.com/watch?v=_ARwtMBwk3I"> <img src='<?php echo get_bloginfo('template_url')?>/images/youtube.png' width='40'/></a>
+       <a href="http://www.youtube.com/channel/UC-jlbRSLZITwlns22I8ELWg"> <img src='<?php echo get_bloginfo('template_url')?>/images/youtube.png' width='40'/></a>
     </div>
     <div class="double-divider span11">
     			“The Native Village of Eyak Traditional Council is a tribal government that promotes self-determination to Native Village of Eyak tribal members."
