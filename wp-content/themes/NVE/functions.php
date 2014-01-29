@@ -244,7 +244,7 @@ if ( ! function_exists( 'starkers_posted_on' ) ) :
  * @since Starkers HTML5 3.0
  */
 function starkers_posted_on() {
-	printf( __( 'Posted on %2$s by %3$s', 'starkers' ),
+	printf( __( 'Posted on %2$s', 'starkers' ),
 		'meta-prep meta-prep-author',
 		sprintf( '<a href="%1$s" title="%2$s" rel="bookmark"><time datetime="%3$s" pubdate>%4$s</time></a>',
 			get_permalink(),
