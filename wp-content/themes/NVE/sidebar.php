@@ -57,8 +57,7 @@
         <?php endif; ?>
             <div class="border side_bar_nav">
                 <h4 class="title_bar">quick links:</h4>
-            
-            <?php wp_nav_menu( array('theme_location' => 'side_menu' )); ?>
+	            <?php wp_nav_menu( array('theme_location' => 'side_menu' )); ?>
         	</div>
         	<div class="border side_bar_nav">
         	<h4 class="title_bar">Web Cam:</h4>

@@ -30,6 +30,53 @@ get_header();
 <div class="page-wrapper row-fluid">
 
     <section class="left_column group span8">
+      <h4 class="label_color">NEWS:
+          <a style="float:right;" href="/category/news/">More stories ></a>
+      </h4>
+      
+      <section id="posts" class="group full_width_background">
+      
+      
+      <?php 
+      $countposts = 0;
+      foreach( $myposts as $post ) : setup_postdata($post); 
+        if ($countposts == 0){
+          $countposts++;
+      ?>
+      
+      <article id="post-<?php the_ID(); ?>" class="news no_border clearfix">
+       <?php echo the_post_thumbnail( array(100,100) );?>
+       
+        <header>
+          <p class="date_stamp"><?php the_time('F jS, Y'); ?></p>
+          <h3><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+          </h3>
+        </header>
+        <section>
+          <?php 
+          the_excerpt();
+          ?>
+        </section>
+
+      </article>
+      
+      <?php }else {?>
+          <article id="post-<?php the_ID(); ?>" class="news clearfix">
+               <p class="date_stamp"><?php the_time('F jS'); ?></p>
+          <h5><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+          </h5>
+      </article>
+          
+          
+          
+          
+      <?php }
+      
+            endforeach; ?>
+
+
+      
+      </section>
         <div class="row-fluid">
             <div class="left_column group span8">
                 <h4 class="label_color">Native Village of Eyak Community</h4>
@@ -263,61 +310,6 @@ skilled members of the workforce.
 
             </div>
         </div>
-			<h4 class="label_color">NEWS:
-    			<a style="float:right;" href="/category/news/">More stories ></a>
-			</h4>
-			
-			<section id="posts" class="group full_width_background">
-			
-			
-			<?php 
-			$countposts = 0;
-
-            foreach( $myposts as $post ) : setup_postdata($post); 
-
-        
-			if ($countposts == 0){
-    			$countposts++;
-			?>
-			
-			<article id="post-<?php the_ID(); ?>" class="news no_border clearfix">
-			 <?php echo the_post_thumbnail( array(100,100) );?>
-			 
-				<header>
-					<h3><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a>
-					</h3>
-					<p>Posted on <?php the_time('F jS, Y'); ?></p>
-				</header>
-				<section>
-					<?php 
-					the_excerpt();
-					?>
-				</section>
-
-			</article>
-			
-			
-
-			<?php }else {?>
-    			
-    			<article id="post-<?php the_ID(); ?>" class="news clearfix">
-    			     <p class="date_stamp"><?php the_time('F jS'); ?></p>
-					<h5><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a>
-					</h5>
-					
-				
-			</article>
-    			
-    			
-    			
-    			
-			<?php }
-			
-            endforeach; ?>
-
-
-			
-			</section>
 			<div class="row-fluid " style="margin-top:40px;">
 			<div class="span6">
 			    <h4 class="title_bar">Upcoming Events:</h4>

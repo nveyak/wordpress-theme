@@ -390,9 +390,12 @@ body>header {
      margin-bottom: 20px;
  }
  #posts article{
-     border-left: solid $mediumColor 1px;
-     
-     padding: 0 8px;
+   border-left: solid $mediumColor 1px;
+   border-left: solid #fff9f0 1px;
+   padding: 0 8px;
+   border-top: solid 1px #ccc;
+   padding-top: 6px;
+   margin-bottom: 11px; 
      &:hover{
          background: #eee;
          cursor: pointer;
@@ -491,7 +494,7 @@ aside{
     width: 105px;
 }
 .news{
-    .date_stamp{font-size: 10px; margin: 0; color:$bodyBgColor }
+    .date_stamp{font-size: 10px; margin: 0; color:$bodyBgColor; padding:0; }
 }
 .no_border{
     border: none !important;
