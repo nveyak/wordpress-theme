@@ -312,9 +312,8 @@ skilled members of the workforce.
         </div>
 			<div class="row-fluid " style="margin-top:40px;">
 			<div class="span6">
-			    <h4 class="title_bar">Upcoming Events:</h4>
-			    <a href="/calendar">Full Calendar</a>
-                <?php echo do_shortcode('[ai1ec view="agenda"]'); ?>
+			    <a href="/events">All events</a>
+                <?php dynamic_sidebar( 'first-footer-widget-area' ); ?>
 			</div>
 			<div class="span6">
 			    <h4 class="title_bar">Promo area:</h4>
