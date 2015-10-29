@@ -24,6 +24,10 @@ function add_search_box($items, $args) {
 
 /** Tell WordPress to run starkers_setup() when the 'after_setup_theme' hook is run. */
 add_action( 'after_setup_theme', 'starkers_setup' );
+add_action( 'after_setup_theme', 'woocommerce_support' );
+function woocommerce_support() {
+    add_theme_support( 'woocommerce' );
+}
 
 if ( ! function_exists( 'starkers_setup' ) ):
 /**
