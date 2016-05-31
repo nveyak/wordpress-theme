@@ -284,7 +284,7 @@ skilled members of the workforce.
                         <li><a href="wp-content/uploads/2013/08/CIBapplication.pdf">Get my CIB</a></li>
                         <li><a href="http://dhss.alaska.gov/dph/VitalStats/Pages/default.aspx" target="_blank">Get my Birth Certificate</a></li>
                         <li><a href="http://alaskafisheries.noaa.gov/ram/subsistence/halibut.htm#app">Apply for a halibut subsistence card</a></li>
-                        <li><a href="mailto:myra@eyak-nsn.gov">Give NVE my email address</a></li>
+                        <li><a href="mailto:Reyna@eyak-nsn.gov">Give NVE my email address</a></li>
 
                     </ul>
                 </div>
@@ -292,7 +292,7 @@ skilled members of the workforce.
                     <h4>Employment</h4>
                     <ul>
                         <li><a href="/jobs/">Current openings</a></li>
-                        <li><a href="/jobs/#applications">Employment applications</a></li>
+                        <li><a href="/wp-content/uploads/2013/08/NVE_app.pdf">Employment applications</a></li>
                         <li><a href="/jobs/#apply">How to apply for a position</a></li>
 
                     </ul>
@@ -300,7 +300,7 @@ skilled members of the workforce.
                  <div class="border textwidget">
                     <h4>Visitors</h4>
                     <ul>
-                        <li><a href="http://shepardpoint.com/contact.php">NVE projects</a></li>
+                        <li><a href="/projects/">NVE projects</a></li>
                         <li><a href="http://www.youtube.com/watch?v=_ARwtMBwk3I">Shepard Pt (dvd)</a></li>
                         <li><a href="http://vimeo.com/61858421">Sobriety (dvd)</a></li>
                         <li><a href="sobriety-celebration/">Sobriety Gallery</a></li>
