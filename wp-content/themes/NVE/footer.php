@@ -12,13 +12,23 @@
 	   <div class="footer_inner">
 
 	   
-        	<ul class="span4 first_list">
-        	   <li>Connect:</li>
-            	<li>PO box 1388</Li>
-            	<li>110 Nicholoff Way Cordova, Alaska 99574</li>
-            	<li>P (907) 424-7738</li>
-            	<li>F (907) 424-7739</li>
-            	
+		<ul class="span4 first_list">
+		<?php
+		if( is_page(12) ) {
+		   echo '<li>Ilanka health center</li>';
+		   echo '<li>705 Second Street Cordova, Alaska 99574</li>';
+		   echo '<li>P (907) 424-3622</li>';
+		   echo '<li>F (907) 424-3275</li>';
+                }
+		else {
+		   echo '<li>NVE main office</li>';
+		   echo '<li>PO box 1388</Li>';
+		   echo '<li>110 Nicholoff Way Cordova, Alaska 99574</li>';
+		   echo '<li>P (907) 424-7738</li>';
+		   echo '<li>F (907) 424-7739</li>';
+                }
+		?>
+	
         	</ul>
         	    	<ul class="span4">
             	<li><a href="/">Home</a></Li>
