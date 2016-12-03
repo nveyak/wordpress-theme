@@ -15,12 +15,13 @@
 			<header>
 				<h1><?php the_title(); ?></h1>
 
-				<?php starkers_posted_on(); ?>
+				<p><?php starkers_posted_on(); ?></p>
 			</header>
 
 			<?php the_content(); ?>
 					
 			<?php wp_link_pages( array( 'before' => '<nav>' . __( 'Pages:', 'starkers' ), 'after' => '</nav>' ) ); ?>
+	
 		</article>
 
 
