@@ -62,6 +62,7 @@ get_header();
       
       <?php }else {?>
           <article id="post-<?php the_ID(); ?>" class="news clearfix">
+                <?php echo the_post_thumbnail( array(50,50) );?>
                <p class="date_stamp"><?php the_time('F jS'); ?></p>
           <h5><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a>
           </h5>
