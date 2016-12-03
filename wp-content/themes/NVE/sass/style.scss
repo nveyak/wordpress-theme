@@ -146,7 +146,7 @@ h1,h2,h3,h4,h5{
 }
 
 .main-nav, .page-wrapper, body>header, .footer_inner{
-    max-width: 940px;
+    max-width: 1600px;
 	clear: none;
 	margin:0 auto;  
 	
@@ -408,7 +408,6 @@ body>header {
 /* bootstrap overrides */
 .container-fluid {
     margin: 0!important;
-    padding: 0!important;
 }
 
 .navbar .nav >li > a{
